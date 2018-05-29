@@ -38,18 +38,18 @@
         android:hint="Number2" />
 
     <EditText
+        android:id="@+id/editText3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Result"
-        android:ems="10"
-        android:layout_below="@+id/editText2"
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
         android:layout_marginLeft="37dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="30dp"
-        android:id="@+id/editText3" />
+        android:ems="10"
+        android:hint="Result"
+        android:inputType="textPersonName" />
 
     <Button
         android:text="Add"
