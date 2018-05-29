@@ -1,8 +1,7 @@
 package dowry.com.myapplication0;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -63,13 +62,4 @@ public class MainActivity extends AppCompatActivity {
         t1.setText(Integer.toString(div));
 
     }
-
-    public void openPractiseApp(View v){
-        Intent intent = new Intent("mist.com.practise.MainActivity");
-        startActivity(intent);
-    }
-
-// baal chaal
-// baal chaal 2
-
 }
